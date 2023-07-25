@@ -1,0 +1,258 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 5rem;
+  padding: 0;
+}
+
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Your existing nav styles */
+nav {
+  margin-bottom: 20px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+/* Style the active link with bold font */
+.active {
+  font-weight: bold;
+  background-color: rgb(3, 134, 204);
+  color: #fff; /* Set text color to white for better visibility */
+  transition: background-color 0.3s ease; /* Add a transition effect */
+}
+
+.page {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+/* Add responsive styles here */
+/* IncomeForm.css */
+
+.form-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.form-container h2 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.form-row label {
+  flex: 1;
+  margin-right: 10px;
+  text-align: right;
+}
+
+.form-row input {
+  flex: 2;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-row button {
+  flex: 2;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.income-table {
+  margin-top: 20px;
+}
+
+.income-table h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.income-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.income-table th,
+.income-table td {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+/* Responsive layout */
+@media screen and (max-width: 768px) {
+  .form-row {
+    flex-direction: column;
+  }
+
+  .form-row label {
+    text-align: left;
+  }
+
+  .form-row input {
+    flex: none;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .form-row button {
+    flex: none;
+    width: 100%;
+  }
+}
+
+/* ExpenseForm.css */
+
+.form-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.form-container h2 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.form-row label {
+  flex: 1;
+  margin-right: 10px;
+  text-align: right;
+}
+
+.form-row input,
+.form-row select {
+  flex: 2;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-row button {
+  flex: 2;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.expense-table {
+  margin-top: 20px;
+}
+
+.expense-table h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.expense-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.expense-table th,
+.expense-table td {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+/* Responsive layout */
+@media screen and (max-width: 768px) {
+  .form-row {
+    flex-direction: column;
+  }
+
+  .form-row label {
+    text-align: left;
+  }
+
+  .form-row input,
+  .form-row select {
+    flex: none;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .form-row button {
+    flex: none;
+    width: 100%;
+  }
+}
+/* ExpenseForm.css */
+/* ExpenseForm.css */
+
+/* ... (existing styles) ... */
+
+img {
+  width: 50px;
+}
+
+/* ... (existing styles) ... */
